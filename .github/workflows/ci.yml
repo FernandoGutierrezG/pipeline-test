@@ -29,8 +29,8 @@ jobs:
       with:
         java-version: 1.8
 
-    - name: Grand execute permission for gradlew
-      run: chmod +x gradlew
+    - name: Grand execute permission for gradle
+      run: chmod +x gradle
 
     - name: Build with Gradle
-      run: ./gradlew build
+      run: ./gradle build
