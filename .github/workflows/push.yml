@@ -13,7 +13,7 @@ jobs:
     name: deply to cluster
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@vmaster
+      - uses: actions/checkout@master
       - name: build and push to docker
         uses: docker/build-push-action@v1
         with:
